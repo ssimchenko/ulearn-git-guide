@@ -1,0 +1,58 @@
+[core]
+	autocrlf = true
+	safecrlf = false
+[diff]
+	tool = vscode
+	guitool = vscode
+[difftool "vscode"]
+	path = code
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
+[mergetool]
+	keepbackup = false
+[mergetool "vscode"]
+	path = code
+	cmd = code --wait $MERGED
+[rebase]
+	autostash = false
+[fetch]
+	prune = false
+[push]
+	autoSetupRemote = false
+[pull]
+	ff = only
+	rebase = false
+[credential]
+	helper = manager
+[alias]
+	configure = config --global -e
+	aliases = !git config -l | findstr alias
+	cleanup = clean -xdf
+	cm = commit -m
+	call = !git add --all && git commit
+	calm = !git add --all && git commit -m
+	amend = commit --amend --no-edit
+	st = status -sb
+	gr = log --graph
+	gra = log --graph --all
+	graph = log --graph --oneline --decorate --all
+	grr = log --graph --all --reflog
+	br = branch -vv --sort=-committerdate --list
+	co = checkout
+	cob = checkout -b
+	sw = switch
+	swc = switch -c
+	back = checkout -
+	undo = reset --soft HEAD^
+	forget = reset --hard HEAD^
+	restart = reset --hard @{u}
+	merc = merge --no-ff
+	ff = merge --ff-only FETCH_HEAD
+	autorebase = rebase --autostash
+	rr = rebase --autostash FETCH_HEAD
+	pushup = push -u origin HEAD
+	please = push --force-with-lease
+	puff = pull --ff-only
+	purr = pull --rebase --autostash
+	sync = !git pull --rebase --autostash && git push
