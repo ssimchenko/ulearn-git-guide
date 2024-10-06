@@ -1,4 +1,4 @@
-# Git Course Practice — ULearn
+# Git Coursework — ULearn
 
 ![Git](https://img.shields.io/badge/Git-version%20control-F05032?logo=git&logoColor=white)
 ![Type](https://img.shields.io/badge/type-university%20coursework-2563EB)
@@ -6,38 +6,38 @@
 
 > **Coursework repository — not a pet project.**
 
-This repository contains practical assignments completed during a university Git course on [ULearn](https://ulearn.me/course/git). The course materials were created by Kontur, and the repository was forked from the official [`kontur-courses/ulearn-git-guide`](https://github.com/kontur-courses/ulearn-git-guide) training repository.
+This repository contains a Git study guide I created during university practice at Ural Federal University using the [ULearn Git course](https://ulearn.me/course/git) developed by Kontur. It is based on the official [`kontur-courses/ulearn-git-guide`](https://github.com/kontur-courses/ulearn-git-guide) training repository.
 
-The repository preserves the actual branch, tag, and merge history produced while completing the exercises. Its purpose is to demonstrate practical Git knowledge rather than present a standalone software product.
+The assignment was designed so that Git was both the subject and the working tool: each meaningful step was committed separately, larger topics were developed in dedicated branches, and completed stages were marked with version tags.
 
-## Git History at a Glance
+## Work in Practice
 
-![Git history graph with feature branches, merges, tags, and a revert](docs/git-history.svg)
+![Repository initialization, focused commit, and history inspection](docs/screenshots/repository-workflow.png)
 
-The graph is the main result of this repository: it shows a non-linear workflow with isolated feature branches, explicit merge commits, milestone tags, review work, and a safe revert.
+*Repository initialization, a focused commit, and history inspection.*
 
-![Course branches and milestone tags](docs/branches-and-tags.svg)
+![Git graph with feature branches, merges, tags, and a revert](docs/screenshots/history-graph.png)
 
-## Skills Practised
+*The actual course history with feature branches, merge commits, version tags, and a safe revert.*
 
-- Repository creation, cloning, configuration, and `.gitignore`
-- Staging changes and creating focused commits
-- Working with `HEAD`, branches, tags, and detached states
-- Feature-branch development and merge workflows
-- Resolving merge conflicts with `mergetool`
-- Rewriting and undoing changes with `amend`, `reset`, and `revert`
-- Moving changes with `cherry-pick`, `stash`, and `rebase`
+## What I Practised
+
+- Creating and configuring repositories, authorship, and `.gitignore`
+- Building focused commits through the working tree and staging area
+- Developing topics in isolated feature branches and merging them into `main`
+- Marking completed milestones with version tags
+- Editing and undoing history with `amend`, `reset`, `revert`, and `rebase`
+- Moving work with `cherry-pick` and `stash`
 - Working with remotes through `fetch`, `pull`, and `push`
 - Configuring upstream branches and tracking relationships
-- Authentication through SSH and HTTPS Credential Manager
-- Pull Request and code review workflow fundamentals
+- Resolving merge conflicts and reviewing changes through Pull Requests
 - Creating practical Git aliases for everyday work
 
 ## Evidence in the Repository
 
-- **30+ commits** created throughout the course
-- **9 branches**, including dedicated feature, merge, review, and tracking branches
-- **8 tags**, with course milestones from `v0.1` to `v1.0`
+- **30+ focused commits** documenting the course work step by step
+- **9 branches** for feature development, merge practice, review, and tracking
+- **8 tags** marking milestones from `v0.1` to `v1.0`
 - **5 merge commits across the repository refs** demonstrating non-linear history
 - A dedicated [`revert` commit](https://github.com/ssimchenko/ulearn-git-guide/commit/f0e7156) that safely undoes an earlier change
 - Platform-specific Git configuration for Windows and Unix-like systems
@@ -55,9 +55,9 @@ The complete live history can be inspected through the repository's [commit grap
 └── index.html    # Browser view that combines the course notes
 ```
 
-## Course Result
+## Result
 
-The final part of the course covers creating repositories on GitHub, developing features in separate branches, integrating work into the main branch, and reviewing changes through Pull Requests.
+The result is a complete Markdown-based Git guide with a history that can be inspected as part of the work itself. The repository demonstrates not only knowledge of individual commands, but also a disciplined workflow built around small commits, isolated changes, readable history, and controlled integration into the main branch.
 
 - [Git course on ULearn](https://ulearn.me/course/git)
 - [Final course section](https://ulearn.me/Course/git/Zadanie_P3_2_Itogi_7d9931bc-e5db-4ae2-b041-5a3d4b321d37)
