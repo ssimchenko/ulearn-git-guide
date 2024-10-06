@@ -10,6 +10,14 @@ This repository contains practical assignments completed during a university Git
 
 The repository preserves the actual branch, tag, and merge history produced while completing the exercises. Its purpose is to demonstrate practical Git knowledge rather than present a standalone software product.
 
+## Git History at a Glance
+
+![Git history graph with feature branches, merges, tags, and a revert](docs/git-history.svg)
+
+The graph is the main result of this repository: it shows a non-linear workflow with isolated feature branches, explicit merge commits, milestone tags, review work, and a safe revert.
+
+![Course branches and milestone tags](docs/branches-and-tags.svg)
+
 ## Skills Practised
 
 - Repository creation, cloning, configuration, and `.gitignore`
@@ -34,7 +42,7 @@ The repository preserves the actual branch, tag, and merge history produced whil
 - A dedicated [`revert` commit](https://github.com/ssimchenko/ulearn-git-guide/commit/d6700ff) that safely undoes an earlier change
 - Platform-specific Git configuration for Windows and Unix-like systems
 
-The complete history can be inspected through the repository's [commit graph](https://github.com/ssimchenko/ulearn-git-guide/network), [branches](https://github.com/ssimchenko/ulearn-git-guide/branches), and [tags](https://github.com/ssimchenko/ulearn-git-guide/tags).
+The complete live history can be inspected through the repository's [commit graph](https://github.com/ssimchenko/ulearn-git-guide/network), [branches](https://github.com/ssimchenko/ulearn-git-guide/branches), and [tags](https://github.com/ssimchenko/ulearn-git-guide/tags).
 
 ## Repository Structure
 
