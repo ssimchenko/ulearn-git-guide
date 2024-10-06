@@ -38,8 +38,8 @@ The graph is the main result of this repository: it shows a non-linear workflow 
 - **30+ commits** created throughout the course
 - **9 branches**, including dedicated feature, merge, review, and tracking branches
 - **8 tags**, with course milestones from `v0.1` to `v1.0`
-- **5 merge commits** demonstrating non-linear history
-- A dedicated [`revert` commit](https://github.com/ssimchenko/ulearn-git-guide/commit/d6700ff) that safely undoes an earlier change
+- **5 merge commits across the repository refs** demonstrating non-linear history
+- A dedicated [`revert` commit](https://github.com/ssimchenko/ulearn-git-guide/commit/f0e7156) that safely undoes an earlier change
 - Platform-specific Git configuration for Windows and Unix-like systems
 
 The complete live history can be inspected through the repository's [commit graph](https://github.com/ssimchenko/ulearn-git-guide/network), [branches](https://github.com/ssimchenko/ulearn-git-guide/branches), and [tags](https://github.com/ssimchenko/ulearn-git-guide/tags).
